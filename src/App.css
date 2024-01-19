@@ -1,0 +1,91 @@
+.container {
+  width: 600px !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+i {
+  font-size: 1.5rem !important;
+  margin: 0 5px !important;
+}
+
+.post>hr {
+  margin: 30px 0px !important;
+}
+
+.description {
+  font-size: 14px !important;
+}
+
+#content_1 {
+  display: flex !important;
+}
+
+
+.story-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.story {
+  display: inline-block;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.story-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #e84118;
+  /* Changez la couleur selon vos préférences */
+  object-fit: cover;
+}
+
+.story-name {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.infos {
+  display: flex;
+  list-style-type: none;
+}
+
+.info {
+  margin-right: 40px;
+}
+
+.img {
+  width: 180px !important;
+  height: 180px !important;
+  margin: 2px;
+}
+
+.posts-user {
+  display: flex !important;
+  flex-flow: wrap !important;
+}
+
+.image-container {
+  flex: 0 0 auto;
+  /* Empêche l'image de s'étirer ou de se rétrécir */
+  margin-right: 20px;
+  /* Ajoute un peu d'espace entre l'image et le contenu */
+}
+
+.content-container {
+  flex: 1;
+  /* Prend l'espace restant */
+}
+
+.modal-content {
+  width: 80% !important;
+}
+
+.username {
+  padding-left: 32px !important;
+}
