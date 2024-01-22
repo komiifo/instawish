@@ -56,8 +56,8 @@ const Posts = () => {
                         <p> <a className="link-body-emphasis fw-medium" href={`https://symfony-instawish.formaterz.fr${post.createdBy.id}`}>{post.createdBy.username}</a> <span className="description">{post.description}</span></p>
 
                         <form action="">
-                            <div class="mb-3">
-                                <input type="text" class="form-control" placeholder="Ajouter un commentaire..."/>
+                            <div className="mb-3">
+                                <input type="text" className="form-control" placeholder="Ajouter un commentaire..."/>
                             </div>
                         </form>
                         <hr />
